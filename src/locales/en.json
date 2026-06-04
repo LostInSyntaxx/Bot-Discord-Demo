@@ -1,0 +1,69 @@
+{
+  "common": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information",
+    "loading": "Loading...",
+    "yes": "Yes",
+    "no": "No",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "page": "Page",
+    "of": "of"
+  },
+  "errors": {
+    "unknown": "An unknown error occurred.",
+    "no_permission": "You don't have permission to use this command.",
+    "owner_only": "This command can only be used by the bot owner.",
+    "guild_only": "This command can only be used in a server.",
+    "cooldown": "Please wait {time} before using this command again.",
+    "maintenance": "The bot is currently under maintenance.",
+    "missing_permissions": "You need the following permissions: {permissions}",
+    "bot_missing_permissions": "I need the following permissions: {permissions}",
+    "invalid_user": "Invalid user provided.",
+    "invalid_channel": "Invalid channel provided.",
+    "invalid_role": "Invalid role provided.",
+    "command_error": "An error occurred while executing this command."
+  },
+  "commands": {
+    "ping": {
+      "name": "ping",
+      "description": "Check the bot's latency",
+      "pinging": "Pinging...",
+      "result": "🏓 Pong! Latency: {latency}ms | API Latency: {api}ms"
+    },
+    "help": {
+      "name": "help",
+      "description": "Display help information",
+      "title": "Help Menu",
+      "no_commands": "No commands available in this category.",
+      "command_not_found": "Command not found."
+    },
+    "userinfo": {
+      "name": "userinfo",
+      "description": "Display information about a user",
+      "title": "User Information",
+      "id": "ID",
+      "created": "Account Created",
+      "joined": "Joined Server",
+      "roles": "Roles",
+      "no_roles": "No roles"
+    },
+    "serverinfo": {
+      "name": "serverinfo",
+      "description": "Display information about the server",
+      "title": "Server Information",
+      "owner": "Owner",
+      "created": "Created",
+      "members": "Members",
+      "channels": "Channels",
+      "roles": "Roles",
+      "emojis": "Emojis",
+      "boosts": "Boosts"
+    }
+  }
+}

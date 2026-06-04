@@ -1,0 +1,69 @@
+{
+  "common": {
+    "success": "สำเร็จ",
+    "error": "ข้อผิดพลาด",
+    "warning": "คำเตือน",
+    "info": "ข้อมูล",
+    "loading": "กำลังโหลด...",
+    "yes": "ใช่",
+    "no": "ไม่",
+    "cancel": "ยกเลิก",
+    "confirm": "ยืนยัน",
+    "back": "ย้อนกลับ",
+    "next": "ถัดไป",
+    "previous": "ก่อนหน้า",
+    "page": "หน้า",
+    "of": "จาก"
+  },
+  "errors": {
+    "unknown": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ",
+    "no_permission": "คุณไม่มีสิทธิ์ใช้คำสั่งนี้",
+    "owner_only": "คำสั่งนี้ใช้ได้เฉพาะเจ้าของบอทเท่านั้น",
+    "guild_only": "คำสั่งนี้ใช้ได้เฉพาะในเซิร์ฟเวอร์เท่านั้น",
+    "cooldown": "กรุณารอ {time} ก่อนใช้คำสั่งนี้อีกครั้ง",
+    "maintenance": "บอทอยู่ระหว่างการบำรุงรักษา",
+    "missing_permissions": "คุณต้องมีสิทธิ์ต่อไปนี้: {permissions}",
+    "bot_missing_permissions": "บอทต้องมีสิทธิ์ต่อไปนี้: {permissions}",
+    "invalid_user": "ผู้ใช้ไม่ถูกต้อง",
+    "invalid_channel": "ช่องไม่ถูกต้อง",
+    "invalid_role": "บทบาทไม่ถูกต้อง",
+    "command_error": "เกิดข้อผิดพลาดขณะดำเนินการคำสั่งนี้"
+  },
+  "commands": {
+    "ping": {
+      "name": "ping",
+      "description": "ตรวจสอบความหน่วงของบอท",
+      "pinging": "กำลังตรวจสอบ...",
+      "result": "🏓 Pong! ความหน่วง: {latency}ms | API: {api}ms"
+    },
+    "help": {
+      "name": "help",
+      "description": "แสดงข้อมูลความช่วยเหลือ",
+      "title": "เมนูช่วยเหลือ",
+      "no_commands": "ไม่มีคำสั่งในหมวดหมู่นี้",
+      "command_not_found": "ไม่พบคำสั่ง"
+    },
+    "userinfo": {
+      "name": "userinfo",
+      "description": "แสดงข้อมูลเกี่ยวกับผู้ใช้",
+      "title": "ข้อมูลผู้ใช้",
+      "id": "ไอดี",
+      "created": "สร้างบัญชีเมื่อ",
+      "joined": "เข้าร่วมเซิร์ฟเวอร์",
+      "roles": "บทบาท",
+      "no_roles": "ไม่มีบทบาท"
+    },
+    "serverinfo": {
+      "name": "serverinfo",
+      "description": "แสดงข้อมูลเกี่ยวกับเซิร์ฟเวอร์",
+      "title": "ข้อมูลเซิร์ฟเวอร์",
+      "owner": "เจ้าของ",
+      "created": "สร้างเมื่อ",
+      "members": "สมาชิก",
+      "channels": "ช่อง",
+      "roles": "บทบาท",
+      "emojis": "อีโมจิ",
+      "boosts": "บูสต์"
+    }
+  }
+}
